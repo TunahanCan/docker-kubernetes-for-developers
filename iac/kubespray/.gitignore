@@ -1,0 +1,5 @@
+kubespray-repo/
+.venv/
+*.retry
+inventory/mycluster/credentials/
+artifacts/

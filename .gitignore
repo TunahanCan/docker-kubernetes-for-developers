@@ -2,3 +2,18 @@
 .claude
 README.md
 **/target
+
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+terraform.tfvars
+kubeconfig.yaml
+
+# Kubespray
+iac/kubespray/kubespray-repo/
+iac/kubespray/.venv/
+*.retry
+iac/kubespray/inventory/mycluster/credentials/
+iac/kubespray/artifacts/

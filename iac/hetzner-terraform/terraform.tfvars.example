@@ -1,0 +1,12 @@
+# Copy this file to terraform.tfvars and adjust values as needed.
+# The Hetzner API token is read from the HCLOUD_TOKEN env var (set in ~/.zshrc).
+
+location             = "fsn1"
+master_server_type   = "cx32"
+worker_server_type   = "cx32"
+worker_count         = 2
+os_image             = "ubuntu-24.04"
+ssh_public_key_path  = "~/.ssh/id_rsa.pub"
+ssh_private_key_path = "~/.ssh/id_rsa"
+kubernetes_version   = "1.32"
+pod_network_cidr     = "192.168.0.0/16"
