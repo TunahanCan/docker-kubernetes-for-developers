@@ -3137,25 +3137,24 @@
     ]
   },
   "packageFolders": {
-    "/Users/huseyinbabal/.nuget/packages/": {}
+    "/home/tnnhn/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/huseyinbabal/github/k8s-docker-for-developers-training/microservices/product-service/ProductService.csproj",
+      "projectUniqueName": "/home/tnnhn/docker-kubernetes-for-developers/product-service/ProductService.csproj",
       "projectName": "ProductService",
-      "projectPath": "/Users/huseyinbabal/github/k8s-docker-for-developers-training/microservices/product-service/ProductService.csproj",
-      "packagesPath": "/Users/huseyinbabal/.nuget/packages/",
-      "outputPath": "/Users/huseyinbabal/github/k8s-docker-for-developers-training/microservices/product-service/obj/",
+      "projectPath": "/home/tnnhn/docker-kubernetes-for-developers/product-service/ProductService.csproj",
+      "packagesPath": "/home/tnnhn/.nuget/packages/",
+      "outputPath": "/home/tnnhn/docker-kubernetes-for-developers/product-service/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/huseyinbabal/.nuget/NuGet/NuGet.Config"
+        "/home/tnnhn/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "/opt/homebrew/Cellar/dotnet/9.0.4/libexec/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3168,13 +3167,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -3226,20 +3219,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.15, 8.0.15]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.osx-arm64",
-            "version": "[8.0.15, 8.0.15]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.15, 8.0.15]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -3248,7 +3227,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.4/libexec/sdk/9.0.105/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.126/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
